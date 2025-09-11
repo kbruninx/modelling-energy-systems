@@ -37,7 +37,7 @@ The corresponding dual problem is:
 The color coding in {numref}`fig:duality_ex1` illustrates some important points:
 
 * Green: The dual problem of a maximisation primal problem is a minimisation problem (and vice versa).
-* Yellow: Two primal variables lead to two dual constraints. The primal objective function coefficients (3 and 5) are the dual constraint parameters.
+* Yellow: Two primal variables lead to two dual constraints. The primal objective function coefficients (3 and 5) form the right-hand side of the constraints in the dual problem.
 * Purple: The "$\geq 0$" bounds on the primal variables lead to "$\geq$" in the dual constraints.
 * Blue: Three primal constraints lead to three dual variables. The primal constraint parameters (4, 12, and 18) are the dual objective function coefficients.
 * Cyan: The "$\leq$" in the primal constraints leads to "$\geq 0$" bounds on the dual variables.
